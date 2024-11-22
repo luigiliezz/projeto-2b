@@ -18,7 +18,7 @@ const Header = () => {
 
             <div className={styles.logo}>
                 <Image className={styles.img} src='/images/night.png' alt=" logo " width={50} height={150} />
-                <h1 className={styles.h1}>playlist</h1>
+                
             </div>
 
             {isMenuOpen &&
@@ -33,7 +33,7 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <Link className={styles.link} href="/contato">Disco</Link>
+                            <Link className={styles.link} href="/discografia">Disco</Link>
                         </li>
                     </ul>
                 </nav>
