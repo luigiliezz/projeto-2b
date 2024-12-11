@@ -1,24 +1,17 @@
+
+
+
 .div{
     display: flex;
     flex-direction: column;
     align-items: center;
    
 }
+.h3{
+    color: #fff;
+}
 
 .li{
-    color: rgb(83, 146, 149) ;
-    padding: 10px;
+    color: #fff;
 }
 
-.h2{
-    color: rgb(131, 219, 222) ;
-}
-
-.h3{
-    color: rgb(95, 204, 208) ;
-    padding: 10px;
-}
-
-.p{
-    color: rgb(83, 146, 149) ;
-}

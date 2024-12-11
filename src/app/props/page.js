@@ -1,4 +1,4 @@
-import Card from "@/components/Card"
+import Card from "@/componensts/Card"
 
 export default function Props() {
     const carros = [
