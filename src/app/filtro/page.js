@@ -7,7 +7,7 @@ export default function Filtro() {
     const pares = nums.filter((num) => (num % 2 === 0));
     const nomes = [' Wagner', 'Ana', 'Felipe', 'João', 'Pedrto', 'Paulo']
     const [busca, setBusca] = useState('')
-    const nomesBusca = nome.toLowerCase().filter((nome) => (nome.startsWitch(busca.toLowerCase)))
+    const nomesBusca = nome.filter((nome) => (nome.toLowerCase().startsWitch(busca.toLowerCase())))
     
     console.log(nums)
     console.log(pares);
